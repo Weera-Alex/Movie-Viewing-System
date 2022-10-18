@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{48BEC3CA-107A-49CF-AB7E-992AE2365105}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Movie_11.My.MyApplication</StartupObject>
+    <RootNamespace>Movie_11</RootNamespace>
+    <AssemblyName>Movie</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\john kan\Music\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Movie.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Movie.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>947BFA6B5D40A91E2224054396189665E8BA91F4</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Movie v1.2_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Movie11DataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Movie11DataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Movie11DataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Movie11DataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Movie11DataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Movie11DataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Movie11DataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Movie11DataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MoviePlayer.Designer.vb">
+      <DependentUpon>MoviePlayer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MoviePlayer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Movie11DataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Movie11DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Movie11DataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Movie11DataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Registration.Designer.vb">
+      <DependentUpon>Registration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Insert.Designer.vb">
+      <DependentUpon>Insert.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Insert.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Movie11DataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Movie11DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MovieRequest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MovieRequest.Designer.vb">
+      <DependentUpon>MovieRequest.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Movie11DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Movie11DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Movie11DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Movie11DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoviePlayer.resx">
+      <DependentUpon>MoviePlayer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registration.resx">
+      <DependentUpon>Registration.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Insert.resx">
+      <DependentUpon>Insert.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovieRequest.resx">
+      <DependentUpon>MovieRequest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Movie v1.2_TemporaryKey.pfx" />
+    <None Include="Movie11DataSet.xsc">
+      <DependentUpon>Movie11DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Movie11DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Movie11DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Movie11DataSet.xss">
+      <DependentUpon>Movie11DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Movie11DataSet1.xsc">
+      <DependentUpon>Movie11DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Movie11DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Movie11DataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Movie11DataSet1.xss">
+      <DependentUpon>Movie11DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Movie11DataSet2.xsc">
+      <DependentUpon>Movie11DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Movie11DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Movie11DataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Movie11DataSet2.xss">
+      <DependentUpon>Movie11DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Movie11DataSet3.xsc">
+      <DependentUpon>Movie11DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Movie11DataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Movie11DataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Movie11DataSet3.xss">
+      <DependentUpon>Movie11DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Movie11DataSet4.xsc">
+      <DependentUpon>Movie11DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Movie11DataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Movie11DataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Movie11DataSet4.xss">
+      <DependentUpon>Movie11DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Movie11DataSet5.xsc">
+      <DependentUpon>Movie11DataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Movie11DataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Movie11DataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Movie11DataSet5.xss">
+      <DependentUpon>Movie11DataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Movie11DataSet6.xsc">
+      <DependentUpon>Movie11DataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Movie11DataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Movie11DataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Movie11DataSet6.xss">
+      <DependentUpon>Movie11DataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Movie11DataSet7.xsc">
+      <DependentUpon>Movie11DataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Movie11DataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Movie11DataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Movie11DataSet7.xss">
+      <DependentUpon>Movie11DataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Movie11DataSet8.xsc">
+      <DependentUpon>Movie11DataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Movie11DataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Movie11DataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Movie11DataSet8.xss">
+      <DependentUpon>Movie11DataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Movie11.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Movie11_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Movie11.mdf</DependentUpon>
+    </Content>
+    <None Include="Resources\pexels-eberhard-grossgasteiger-1366919 %282%29_digital_art_x4.jpg" />
+    <None Include="Resources\Screenshot 2021-04-11 192910_digital_art_x4.png" />
+    <None Include="Resources\image_2021-04-11_192654_digital_art_x4.png" />
+    <None Include="Resources\agenda.jpg" />
+    <None Include="Resources\noun_jungle_25442031.png" />
+    <None Include="Resources\noun_jungle_2544203.png" />
+    <None Include="Resources\agenda.png" />
+    <None Include="Resources\User-Profile-52.png" />
+    <None Include="Resources\User-Profile-60.png" />
+    <None Include="Resources\imageonline-co-brightnessadjusted %282%291.png" />
+    <None Include="Resources\imageonline-co-brightnessadjusted %281%291.png" />
+    <None Include="Resources\folder1.png" />
+    <None Include="Resources\imageonline-co-brightnessadjusted1.png" />
+    <None Include="Resources\imageonline-co-brightnessadjusted.png" />
+    <None Include="Resources\imageonline-co-brightnessadjusted %281%29.png" />
+    <None Include="Resources\imageonline-co-brightnessadjusted %282%29.png" />
+    <None Include="Resources\windows.png" />
+    <None Include="Resources\folder.png" />
+    <None Include="Resources\video-player.png" />
+    <None Include="Resources\paper-plane %282%29.png" />
+    <None Include="Resources\imageonline-co-lightenimage.png" />
+    <None Include="Resources\imageonline-co-lightenimage %281%29.png" />
+    <None Include="Resources\imageonline-co-lightenimage %282%29.png" />
+    <None Include="Resources\icons8-terms-and-conditions-64 %281%29.png" />
+    <None Include="Resources\icons8-ticket-64 %281%29.png" />
+    <None Include="Resources\icons8-video-file-64 %281%29.png" />
+    <None Include="Resources\icons8-jake-64 %281%29.png" />
+    <None Include="Resources\download %282%29.png" />
+    <None Include="Resources\icons8-jake-96 %281%29.png" />
+    <None Include="Resources\icons8-jake-96.png" />
+    <None Include="Resources\icons8-jake-512.png" />
+    <None Include="Resources\icons8-video-file-64.png" />
+    <None Include="Resources\icons8-ticket-64.png" />
+    <None Include="Resources\icons8-movie-64 %281%29.png" />
+    <None Include="Resources\icons8-movie-64.png" />
+    <None Include="packages.config" />
+    <None Include="Resources\pexels-eberhard-grossgasteiger-1366919 %282%29.jpg" />
+    <None Include="Resources\pexels-eberhard-grossgasteiger-1366919.jpg" />
+    <None Include="Resources\download1.png" />
+    <None Include="Resources\image.png" />
+    <None Include="Resources\download.png" />
+    <None Include="Resources\rsz_screenshot_245.png" />
+    <None Include="Resources\rsz_1rsz_screenshot_2021-03-30_151933.png" />
+    <None Include="Resources\Screenshot 2021-03-30 151933.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SqlServer.SqlLocalDB.15.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2019 Express LocalDB</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
